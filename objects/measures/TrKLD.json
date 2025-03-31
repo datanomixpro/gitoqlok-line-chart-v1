@@ -1,0 +1,50 @@
+{
+  "qInfo": {
+    "qId": "TrKLD",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "Маржа%",
+    "qDef": "Sum([Маржа])/Sum([Продажи])",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qNumFormat": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "coloring": {
+      "gradient": {
+        "colors": [
+          {
+            "color": "#f93f17",
+            "index": 10
+          },
+          {
+            "color": "#f8981d",
+            "index": 9
+          },
+          {
+            "color": "#276e27",
+            "index": 3
+          }
+        ],
+        "breakTypes": [
+          false,
+          false
+        ],
+        "limits": [
+          0.1,
+          0.2
+        ],
+        "limitType": "absolute"
+      }
+    }
+  },
+  "qMetaDef": {
+    "title": "Маржа%",
+    "description": "",
+    "tags": []
+  }
+}
